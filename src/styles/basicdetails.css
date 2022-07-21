@@ -1,0 +1,100 @@
+.basic-details-outer {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.pbd {
+    font-weight: 500;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #ccc;
+    line-height: 3.5rem;
+}
+
+
+/* css for sections */
+
+.section {
+    display: flex;
+    padding: 1rem 0;
+}
+
+
+.section label {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+
+.section .inp {
+    height: 43px;
+    width: 300px;
+    border-radius: 4px;
+    border: none;
+    border:solid 1px #ccc;
+    margin-top: 0.7rem;
+}
+
+.react-input {
+    width: 310px;
+    margin-top: 0.7rem;
+}
+
+.react-select label {
+    font-weight: 500;
+}
+
+
+.section-one {
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.section-two {
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.section-three {
+    align-items: center;
+    gap: 8rem;
+}
+
+.radio-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.spanlt {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.rbi {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 2rem;
+}
+
+/* for the financial details */
+
+.financial-details-outer {
+    margin-top: -7rem;
+}
+
+.desc-w {
+    width: 320px;
+    margin-right: 5.5rem;
+}
+
+.desc-right-side {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 8rem;
+}
